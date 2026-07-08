@@ -4,14 +4,14 @@ export function showContact() {
   const heading = document.createElement("h1");
   heading.textContent = "Contact Us";
 
-  // Address section
+  // address details
   const addressHeading = document.createElement("h2");
   addressHeading.textContent = "Visit Us";
 
   const addressText = document.createElement("p");
   addressText.textContent = "123 Flavor Street, Nashik, Maharashtra";
 
-  // Phone & email section
+  // contact details
   const infoHeading = document.createElement("h2");
   infoHeading.textContent = "Reach Us";
 
@@ -21,7 +21,7 @@ export function showContact() {
   const emailText = document.createElement("p");
   emailText.textContent = "Email: hello@bellavista.com";
 
-  // Hours section
+  // Open section
   const hoursHeading = document.createElement("h2");
   hoursHeading.textContent = "Hours";
 
@@ -37,7 +37,7 @@ export function showContact() {
     hoursList.appendChild(li);
   });
 
-  // Append everything — DON'T FORGET THIS PART like last time!
+ 
   content.appendChild(heading);
   content.appendChild(addressHeading);
   content.appendChild(addressText);
